@@ -1,0 +1,90 @@
+.h-fit-dvh
+{ height: 100dvh; }
+
+.w-fit-dvh
+{ width: 100dvh; }
+
+/* ========================== */
+
+.h-fit-lvh
+{ height: 100lvh; }
+
+.w-fit-lvh
+{ width: 100lvh; }
+/* ===========================*/
+
+/* ============================ */
+
+.w-fit
+{ width: 100%; }
+
+.h-fit
+{ height: 100%; }
+
+/* ============================ */
+
+.pos-absolute
+{ position: absolute; }
+
+.pos-fixed
+{ position: fixed; }
+
+.pos-inherit
+{ position: inherit; }
+
+.pos-relative
+{ position: relative; }
+
+.pos-sticky
+{ position: sticky; }
+
+/* */
+/*============================= */
+/* */
+
+.dis-flex
+{ display: flex; }
+
+.dis-block
+{ display: block; }
+
+/* =========================== */
+
+
+.text-center
+{ text-align: center; }
+
+/* ========================== */
+
+.flex-row
+{ flex-direction: row; }
+
+.flex-colum
+{ flex-direction: column; } 
+
+/* ========================= */
+
+.color-white
+{ color: white; }
+
+/* ======================== */
+
+.margin-none
+{ margin: 0;}
+
+.margin-bot-1vw
+{ margin-bottom: 2vw ; }
+
+.margin-center
+{ margin-left: auto; margin-right:auto; }
+
+/* ======================= */
+
+.justify-center
+{ justify-content: center; }
+
+.bottom-0
+{ bottom: 0; }
+
+.left-0
+{ left: 0; }

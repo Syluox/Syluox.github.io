@@ -1,0 +1,78 @@
+body,html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1e1e;
+    scrollbar-width: none;
+    -webkit-text-size-adjust: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.snapd
+{
+    scroll-snap-align: start ;
+}
+
+.head-container-width
+{
+    width: 29vw;   
+}
+
+.mid-text-container
+{
+    width: 29vw;
+}
+
+.welcome-line
+{
+    height: 50px;
+    border-left: 6px solid white;
+    width: 1px;
+}
+
+.top-text
+{
+
+    top: -10vh;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lalezar-regular {
+    font-family: 'Lalezar', system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.spacing-small{
+    letter-spacing: 0.04vw;
+}
+
+.page-2
+{
+    background-image: url("./img/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-black
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ground
+{
+    height: 20dvw;
+}
+
+.wife-img
+{
+    height: 18dvw;
+}

@@ -1,0 +1,19 @@
+Sylon Style Info : 
+
+Size : 
+
+- w-fit-dvh : For "width" fiting size as dynamic size
+- h-fit-dvh : For "Heigh" fiting size as dynamic size
+
+- w-fit-lvh : for fit "width" Large Viewport Height 
+- h-fit-lvh : for fit "heigh" Large Viewport Heigh
+
+
+
+Position: 
+
+- pos-absolute : Set "Position" to "absolute"
+- pos-fixed : Set "Position" to "fixed"
+- pos-inherit : Set "Position" to "inherit"
+- pos-sticky : Set "Position" to "sticky"
+- pos-relative : Set "Position" to "relative"
