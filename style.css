@@ -6,8 +6,11 @@ body,html
     background-color: #1f1e1e;
     scrollbar-width: none;
     -webkit-text-size-adjust: auto;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type:y mandatory;
 }
+
+.top-rotate 
+{}
 
 .snapd
 {
@@ -51,6 +54,15 @@ body,html
 
 }
 
+.lexend {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  
+
 .spacing-small{
     letter-spacing: 0.04vw;
 }
@@ -62,17 +74,74 @@ body,html
     background-position: center;
 }
 
-.bg-black
+.mid-container
 {
-    background-color: rgba(0, 0, 0, 0.7);
+    width: 80vw;
+    height: 100%;
 }
 
-.ground
+.content1
 {
-    height: 20dvw;
+    width: 66%;
+}
+.content2
+{
+    margin-left: 8vw;
 }
 
-.wife-img
+.legacy-line
 {
-    height: 18dvw;
+    border-top: 0.5vw solid white;
+    border-left: 0.5vw solid white; 
+    width: 7vw;
+    height: 8vw;
+    display: flex;
+    position: relative;
+    left: vw;
+    top: -1vw;
+}
+
+.icon-margin
+{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.top-top-line
+{
+    top: 1.3vw;
+    width: 7vw;
+    height: 0vw;
+    position: absolute;
+    border-top: 0.8vw solid white;
+}
+
+.top-left-line
+{
+    border-left: 0.9vw solid white;
+    position: absolute;
+    width: 0vw;
+    height: 4vw;
+    top: 1.3vw;
+
+}
+
+.bottom-bottom-line
+{
+    border-bottom: 0.8vw solid white;
+    width: 7vw;
+    height: 0vw;
+    bottom: 1.3vw;
+    position: absolute;
+    right: 0;
+}
+
+.bottom-right-line
+{
+    border-right: 0.8vw solid white;
+    width: 0vw;
+    height: 4vw;
+    right: 0;
+    position: absolute;
+    bottom: 1.3vw;
 }
